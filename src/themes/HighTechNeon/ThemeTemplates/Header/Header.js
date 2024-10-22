@@ -4,8 +4,6 @@ import "./header.css";
 import ThemeControls from "../../themeControls/ThemeControls";
 import Hamburger from "./components/hamburger/Hamburger";
 import Logo from "../../themeComponents/Logos/3dLogo/3dLogo";
-const lightLogo = `${process.env.PUBLIC_URL}/myLogo3d.png`;
-const darkLogo = `${process.env.PUBLIC_URL}/myLogo3d-black.png`;
 
 const Header = ({ toggleMenu }) => {
   return (
